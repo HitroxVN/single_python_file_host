@@ -1,17 +1,24 @@
 # single_python_file_host
-Single Python File Host
 
-A minimal Python Flask file hosting server.
-Allows uploading and downloading files via web or curl.
+A minimal **Python Flask** file hosting server.  
+Allows uploading and downloading files via **web** or **curl**.
 
-Requirements
+---
 
-Flask (pip install flask)
-Werkzeug (pip install werkzeug)
+## Requirements
 
-Features
+- Flask (`pip install flask`)  
+- Werkzeug (`pip install werkzeug`)  
 
-Upload files via web form or curl
-Download files via direct link
-Auto-rename duplicates
-File size limit
+---
+
+## Features
+
+- Upload files via **web form** or **curl**  
+- Download files via **direct link**  
+- Auto-rename duplicate files  
+- File size limit
+- Auto-delete old file (queue)
+
+
+[Test link](http://194.164.56.165:9418/)
